@@ -4,7 +4,7 @@ export default function Home() {
 const text = String.raw`"Front-End developer and avid reader."`
 
   return (
-    <div className="card flex flex-col text-center items-center h-2/3 xl:h-4/6 rounded-2xl xl:rounded-lg  w-96">
+    <div className="card flex flex-col text-center items-center h-2/3 pt-5 xl:h-4/6 rounded-2xl xl:rounded-lg  w-96">
       {/* image */}
       <div className=" flex items-center h-44">
         <Image
