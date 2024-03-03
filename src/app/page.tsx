@@ -8,7 +8,7 @@ const text = String.raw`"Front-End developer and avid reader."`
       {/* image */}
       <div className=" flex items-center h-44">
         <Image
-          src={avatar}
+          src={'https://neriyamalachi.github.io/portfolioLinks/' + avatar}
           alt="avatarImage"
           width={20}
           height={10}
